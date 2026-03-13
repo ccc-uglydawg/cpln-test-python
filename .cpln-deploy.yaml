@@ -1,0 +1,11 @@
+version: 1
+service: .
+cpln:
+  org: cpln-git-deploy
+  gvc: development
+roles:
+  - name: cpln-test-python
+    type: web
+    port: 3000
+    healthPath: /healthz
+    public: true
