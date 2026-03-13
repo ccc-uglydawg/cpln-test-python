@@ -6,6 +6,7 @@ cpln:
 roles:
   - name: cpln-test-python
     type: web
+    workload: cpln-test-python
     port: 3000
     healthPath: /healthz
     public: true
