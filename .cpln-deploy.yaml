@@ -7,6 +7,7 @@ workloads:
   - name: cpln-test-python
     type: web
     workload: cpln-test-python
+    dockerfile: Dockerfile
     port: 3000
     healthPath: /healthz
     public: true
